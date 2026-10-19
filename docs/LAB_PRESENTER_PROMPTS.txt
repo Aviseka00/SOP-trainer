@@ -1,0 +1,14 @@
+Fictional laboratory presenter presets
+Generated with the built-in image generation tool, 2026-10-18.
+
+Lab scientist
+File: approved_media/presenters/fictional_lab_scientist.png
+Final prompt:
+Create a single photorealistic studio portrait of a completely fictional Indian male laboratory scientist aged 35, for an SOP training video presenter. Chest-up, centered, shoulders level, facing exactly forward with eyes directly into camera, natural relaxed closed lips, approachable professional expression. Short neat dark hair, clean shaven, white laboratory coat over pale blue collared shirt. Full head visible with generous margin above hair, face large and unobstructed, no glasses, no mask, no hands or instruments. Plain soft pale gray background, even soft frontal lighting, realistic skin texture, sharp eyes, photographic proportions. No text, logos, badges, watermark, collage, or multiple people. This is a fictional character, no resemblance to any known real individual.
+
+Lab technician
+File: approved_media/presenters/fictional_lab_technician.png
+Final prompt:
+Create a single photorealistic studio portrait of a completely fictional Indian female laboratory technician aged 30, for an SOP training video presenter. Chest-up, centered, shoulders level, facing exactly forward with eyes directly into camera, natural relaxed closed lips, approachable professional expression. Dark hair neatly tucked under a light blue disposable laboratory bouffant cap, clean white laboratory coat over teal scrub top. Full head and cap visible with generous margin above, face large and unobstructed, no glasses, no mask, no hands or instruments. Plain soft pale gray background, even soft frontal lighting, realistic skin texture, sharp eyes, photographic proportions. This is a generic presenter costume rather than demonstration of procedure-specific protective equipment. No text, logos, badges, watermark, collage, or multiple people. This is a fictional character, no resemblance to any known real individual.
+
+Both are fictional assets. These new portraits have been visually inspected and added to the presenter selector. Neural animation has not been benchmarked on these two portraits; the previous educator benchmark still applies only to that original test.

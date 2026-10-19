@@ -1,0 +1,17 @@
+{
+  "status": "processing_at_submission",
+  "asset_id": "3aa22f0b401b4d3c978022bdc11b0ba6",
+  "avatar_id": "b8e355741ea5b8e72a12fc8bda3c7d29",
+  "video_id": "c3b1c04dd77ea5ce301d12ada63b0a39",
+  "avatar_readiness": "completed",
+  "portrait": "approved_media/presenters/fictional_lab_scientist_gestures.png",
+  "voice": {
+    "id": "09c3d65e44e247dd8b78a97a903feb58",
+    "name": "Aditya",
+    "language": "English"
+  },
+  "script": "Welcome to SOP training. Before you begin, review the approved procedure and confirm that you understand each step. Pause whenever you need clarification.",
+  "motion_prompt": "Maintain natural eye contact with the camera, blink naturally, and use small calm explanatory hand gestures timed to spoken phrases. Emphasize reviewing the approved procedure with an open-palm gesture. Keep fingers anatomically consistent and return hands to a relaxed position between phrases.",
+  "engine": "avatar_iv",
+  "note": "User authorized upload and sample creation with 'complete it'. Portrait uploaded and fictional photo avatar created. Avatar IV sample submitted once; inline HeyGen player tracks completion. Lip, hand, gaze and speech synchronization are requested but not yet visually verified. This connector workflow is separate from the local Streamlit SadTalker engine; no automatic cloud generation inside the local app is claimed."
+}

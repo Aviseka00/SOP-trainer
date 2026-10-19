@@ -1,0 +1,4 @@
+Mode: built-in image generation; edit of the existing fictional scientist.
+Saved asset: approved_media/presenters/fictional_lab_scientist_gestures.png
+Final prompt:
+Edit this fictional laboratory scientist portrait into a wider medium shot from head to upper thighs for a talking presenter video. Preserve exactly the same fictional man's face, hair, age, white lab coat and pale blue collared shirt, photographic skin and soft even lighting. Man stands centered facing camera, relaxed closed mouth, eyes to lens. Show full head with margin, shoulders, both arms, and both complete anatomically correct bare hands resting separately at waist height, relaxed open fingers, ready to make explanatory gestures. No hand or elbow cropped. Plain soft gray studio background, generous empty margin around body, landscape 16:9 composition. No props, text, logos or badges. Generic lab presenter costume, not procedural PPE instruction.

@@ -1,0 +1,19 @@
+# Exact continuation instructions
+
+Start from the working 0.3.0 visual-generation release. Local 2D diagrams and animations are now implemented in visuals.py; retain their source binding, draft status, technical review and strict-export controls. Run `TEST_WINDOWS.bat` outside a sandbox and read TEST_RESULTS.md before changes. Keep `engine.render`'s original return tuple compatible. Work in the following order; each stage must produce real evidence before its UI status is changed.
+
+1. Add formal JSON Schema/Pydantic validation for nested model/asset/timeline records, optimistic save conflict checks, a version restore UI and per-user access controls. Current persistence is single-operator and not a formal audit system.
+2. Finish phase 2: verify Edge word boundaries against real audio on the target PC; build a unified phrase cue schema and editor; map separate clips to phrases; add a forced-alignment adapter in its own environment with language and model availability checks. Compare measured caption and action onset errors to manually annotated speech. Offline SAPI currently has scene timing only.
+3. Add a licensed small embedding model with explicit download size/terms/checksum records. Use embeddings to rank assets but retain hard SOP/revision/approval filters in `media.py`. Test confusing step pairs such as soap application vs rinsing; never auto-approve a retrieval.
+4. Implement a model manager with official URL allowlists, disk estimates, resumable downloads, expected SHA-256 verification, model cards, per-weight license acceptance, uninstall/rollback and cancellation. `scripts/model_setup.py` currently performs inspection only.
+5. Create an isolated MuseTalk environment, pin the actual upstream commit and dependencies, confirm GTX 1050/Pascal kernel compatibility, and test a 5-second authorized presenter recording with actual generated speech. Measure peak VRAM, time, failed frames and sync error. Upstream RTX results do not predict this PC. If it cannot run, keep the recorded-presenter fallback and evaluate a separately installed CPU-capable portrait engine. Do not replace this with an empty CLI adapter.
+6. Test facial animation independently from body motion. Only expose expression/gaze controls supported by an installed model. Add identity/consent provenance for user portraits and any later cloning feature.
+7. Phase 4: add deterministic explanatory Blender templates, clearly labeled as diagrams and reviewed against site equipment documents. Use separate asset review records; do not portray invented illustrations as approved procedural demonstration footage. Add visual regression frames and technical SME review.
+8. Add burned-in Indic captions with appropriate fonts/shaping, corporate intro/outro templates, music licensing and ducking, chunked media downloads, output media validation metrics and final release-signoff workflow.
+
+Unfinished capability labels in `app_workspace.py` and documentation must remain truthful. No artificial phoneme timings, fabricated performance figures or staged model outputs are acceptable.
+
+
+## 0.4.0 presenter update
+
+A real SadTalker CPU pipeline is now installed and benchmarked (55 frames / 2.2 seconds in 764.72 seconds), with Presenter studio and cached end-to-end composition. This supersedes the previous absence of a tested talking-face renderer. It does not complete the reference video’s body performance or a practical GPU pipeline. Next priorities: create and benchmark a separate compatible CUDA environment on the GTX 1050 without breaking the verified CPU environment; measure phoneme/video alignment and longer identity stability; expose actual frame progress; profile/cache portrait preprocessing; and evaluate body motion independently. See PRESENTER.md for the measured result and limitations.

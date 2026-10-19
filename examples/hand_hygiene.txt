@@ -1,0 +1,19 @@
+Title: Hand hygiene training example
+SOP ID: DEMO-HH-001
+Revision: DEMO-01
+Effective date: Example only — not an approved SOP
+
+1. Purpose
+This fictional document demonstrates the application workflow and must not be used as an operational procedure.
+2. Preparation
+2.1 Check that the designated handwashing station has the approved soap and a clean drying supply.
+2.2 WARNING: Do not enter the production area if required hygiene supplies are unavailable. Notify the supervisor.
+3. Handwashing
+3.1 Wet both hands with water at the designated sink.
+3.2 Apply the approved soap to both hands.
+3.3 Rub your palms together, then follow the handwashing sequence in the effective site SOP.
+3.4 Rinse both hands thoroughly with water.
+3.5 Dry hands using the approved drying method.
+4. Documentation
+4.1 Record completion of the training in the designated training record.
+4.2 Do not invent a contact time or acceptance criterion missing from the approved SOP.

@@ -1,0 +1,32 @@
+.local/
+.venv/
+.avatar_venv/
+__pycache__/
+*.pyc
+cache/
+projects/
+jobs/
+outputs/
+dist/
+external/
+models/
+.test_tmp/
+.env
+.env.*
+!.env.example
+*.log
+
+# Only original fictional presenter assets belong in source control.
+approved_media/*
+!approved_media/README.md
+!approved_media/presenters/
+approved_media/presenters/*
+!approved_media/presenters/fictional_educator.png
+!approved_media/presenters/fictional_lab_scientist.png
+!approved_media/presenters/fictional_lab_technician.png
+!approved_media/presenters/fictional_lab_scientist_gestures.png
+
+# Generated demonstrations and machine-specific manifests are local artifacts.
+examples/ai_presenter/
+examples/generated_visuals/
+examples/cloud_acceptance/
